@@ -2,9 +2,9 @@ import React from 'react';
 
 const Imprint = () => {
     return (
-        <div className="max-w-3xl mx-auto p-4 h-screen flex items-center justify-center text-left">
+        <div className="max-w-3xl mx-auto p-4 min-h-screen flex items-center justify-center text-left">
             <section className="mb-8">
-                <a className="text-base flex gap-2" href='/'>
+                <a className="text-base flex gap-2 z-auto" href='/'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left">
                         <path d="M6 8L2 12L6 16" />
                         <path d="M2 12H22" />
