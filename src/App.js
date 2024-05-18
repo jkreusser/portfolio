@@ -1,13 +1,24 @@
 import './App.css';
-import Animation from './components/Animation';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Maintenance from './components/Maintenance';
+import Imprint from './components/Imprint';
+import Impressum from './components/Impressum';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Animation />
-      </header>
-    </div>
+    <Router>
+      <div className="App bg-black">
+        <header className="App-header">
+        </header>
+        <div>
+          <Routes>
+            <Route path="/" element={<Maintenance />} />
+            <Route path="/imprint" element={<Imprint />} />
+            <Route path="/impressum" element={<Impressum />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
