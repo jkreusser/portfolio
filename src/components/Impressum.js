@@ -3,8 +3,12 @@ import React from 'react';
 const Impressum = () => {
     return (
         <div className="max-w-3xl mx-auto p-4 h-screen flex items-center justify-center text-left">
-            <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">Impressum</h2>
+            <section className="mb-8"><a className="text-base flex gap-2" href='/'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left">
+                    <path d="M6 8L2 12L6 16" />
+                    <path d="M2 12H22" />
+                </svg>Zurück</a>
+                <h2 className="text-2xl font-semibold mt-8 mb-4">Impressum</h2>
                 <div className="mb-4">
                     <h3 className="text-lg font-semibold mb-2">Angaben gemäß § 5 TMG:</h3>
                     <p>Joschka Kreusser<br />Falkenstr. 11F<br />81541 München</p>

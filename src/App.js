@@ -7,8 +7,12 @@ import Impressum from './components/Impressum';
 function App() {
   return (
     <Router>
-      <div className="App bg-black">
-        <header className="App-header">
+      <div className="App flex flex-col items-center justify-center">
+        <header className="App-header max-w-3xl flex justify-between items-center w-full p-4 absolute top-0">
+          <div></div>
+          <nav className="flex items-center">
+            <Link className="text-base" to="/imprint">Imprint</Link>
+          </nav>
         </header>
         <div>
           <Routes>
