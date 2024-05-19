@@ -17,7 +17,6 @@ const Maintenance = () => {
                     <span>Be right back!</span>
                 </div>
             </div>
-            <a className="text-base absolute bottom-8" href="/imprint">Imprint</a>
         </div>
     );
 };
